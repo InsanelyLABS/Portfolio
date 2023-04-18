@@ -84,6 +84,7 @@ html{scroll-behavior:smooth}
     border-radius: 10px;
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
     
     }
     
@@ -189,6 +190,7 @@ html{scroll-behavior:smooth}
     @media screen and (max-width: 1200px) {
     .gallery {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     padding-top: 50;
     }
     }
     
@@ -196,13 +198,15 @@ html{scroll-behavior:smooth}
     .gallery {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    padding-top: 50;
     }
     }
     
     @media screen and (max-width: 480px) {
     .gallery {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
+    gap: 70px;
+    padding-top: 90;
     }
     }
 
@@ -234,6 +238,7 @@ html{scroll-behavior:smooth}
       @media only screen and (max-width: 600px) {
         .content {
           padding-right: 10px;
+          padding-top: 50;
         }
         
         .content::-webkit-scrollbar {
@@ -245,6 +250,7 @@ html{scroll-behavior:smooth}
       @media only screen and (min-width: 250px) and (min-width: 1200px) {
         .content {
           padding-right: 20px;
+         
         }
         
         .content::-webkit-scrollbar {
@@ -263,7 +269,7 @@ html{scroll-behavior:smooth}
       .Socials a {
         display: inline-block;
         margin: 0 10px;
-        transition:  0.7s ease-in-out;
+        transition:  1.3s ease-in-out;
         margin-top: 15px;
       }
       
