@@ -271,12 +271,13 @@ html{scroll-behavior:smooth}
         transform: scale(1.5);
         margin-left: 75px;
         margin-right: 75px;
-        margin-top: 40px;
+        margin-top: 41px;
       }
       
       .Socials a img {
         max-width: 100px;
         height: auto;
+
       }
       
       @media (max-width: 600px) {
