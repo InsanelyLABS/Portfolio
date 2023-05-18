@@ -1,0 +1,70 @@
+html{scroll-behavior:smooth}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+  
+
+
+.Contact-me1 {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size:larger;
+    font-weight: 600;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 550;
+  }
+  
+  button[type="submit"]:hover {
+    transform:scale(1.2);
+    border-radius: 5px;
+    background-color: #d8f932;
+  }
+  
+ 
+  

@@ -100,7 +100,14 @@ html{scroll-behavior:smooth}
     section h3 {
     font-size: 66px;
     margin-bottom: 200px;
-    margin-top: 200px;
+    margin-top: 60px;
+    transition: 0.5s;
+    }
+        
+    section h3:hover {
+      color: #32adf9;
+      transform: scale(1.1);
+    
     }
     
     .gallery {
@@ -160,11 +167,11 @@ html{scroll-behavior:smooth}
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 108px;
+    gap: 100px;
      margin-left: 75px;
      margin-right: 75px;
-    margin-top: 3px;
-   
+    margin-top: 50px;
+   margin-bottom: 50px;
     }
     
     .gallery img {
@@ -173,15 +180,14 @@ html{scroll-behavior:smooth}
     object-fit: cover;
     transition: 1s;
     border-radius: 20px;
+    gap: 50px;
 
   
     }
     
     .gallery :hover {
        transform: scale(1.4);
-   
-       border-radius: 10px;
-    
+       border-radius: 5px;
         }
 
 
@@ -267,9 +273,9 @@ html{scroll-behavior:smooth}
       }
       
       .Socials a {
-        display: inline-block;
+        display:grid;
         margin: 0 10px;
-        transition:  1.3s ease-in-out;
+        transition: 0.6s;
         margin-top: 15px;
       }
       
@@ -299,4 +305,27 @@ html{scroll-behavior:smooth}
           margin: 15px 5px;
         }
       }
+      
+  
+      .ContactButton {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 40px;
+        border-radius: 10px;
+        transition: 1s;
+      }
+      .ContactButton:hover {
+      transform: scale(1.4);
+      background-color: #d8f932;
+    
+      }
+
+      
+    
+    
       
